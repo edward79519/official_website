@@ -1,0 +1,197 @@
+// =================
+// header
+// =================
+header{
+    width: 100%;
+    padding: 0 50px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    min-height: 60px;
+    &.fix{
+        position: fixed;
+        box-shadow: rgba(0,0,0,.1) 0 3px 10px;
+        + section{
+            &::before{
+                content: '';
+                height: 60px;
+                display: block;
+            }
+        }
+    }
+    .logo{
+        vertical-align: middle;
+    }
+    nav{
+        display: inline-block;
+        vertical-align: middle;
+        background-color: #fff;
+    }
+    .navbox{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .nav_item{
+        padding: 15px 10px;
+    }
+    .mobile_control{
+        display: none;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .nav_icon{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+#hamburger{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    > div{ top: 50%; }
+    > div,
+    &::before,
+    &::after{
+        content: '';
+        width: 25px;
+        height: 2px;
+        background-color: #1C3275;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transition: .3s;
+    }
+    &::before{ top: calc(20% - 1px); }
+    &::after{ top: 80%; }
+    &.active:before{
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    &.active:after{
+        top: 50%;
+        transform: rotate(-45deg);
+    }
+    &.active > div{ background-color: transparent; }
+}
+@media screen and (max-width: 1023px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        &.fix{
+            + section{
+                &::before{
+                    content: '';
+                    height: 60px;
+                    display: block;
+                }
+            }
+        }
+        .mobile_control{
+            display: inline-flex;
+        }
+        nav{
+            width: 100%;
+            display: block;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            box-shadow: rgba(0,0,0,.1) 0 3px 10px;
+            transform: translateY(-130%);
+            transition: .5s;
+            &.active{
+                transform: translateY(0);  
+            }
+            .navbox{
+                width: 100%;
+                margin-left: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li,.nav_item{
+                flex: 0 0 100%;
+                border-right: none;
+                border-bottom: #ccc 1px solid;
+                text-align: center;
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+            &#index_header{
+                .navbox{
+                    width: 100%;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+        padding: 0 10px;
+    }
+}
+
+// =================
+// footer
+// =================	
+footer{
+    text-align: center;
+    background-color: #5E7C34;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    .top{
+        padding: 30px 0;
+        *{
+            margin-top: 5px;
+        }
+    }
+    .bottom{
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        p{
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        a{
+            margin: 10px 0;
+            display: block;
+            opacity: 1;
+        }
+    }
+    .allright{
+        text-align: right;
+        .allright_item{
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: rgba(255,255,255,.2);
+            opacity: .8;
+            text-align: left;
+        }
+    }
+}
+@media screen and (max-width: 1023px){
+    footer{
+        .bottom{
+            flex-wrap: wrap;
+        }
+        .item{
+            flex: 0 0 33.3333%;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    footer{
+        .item{
+            flex: 0 0 50%;
+        } 
+    }
+}

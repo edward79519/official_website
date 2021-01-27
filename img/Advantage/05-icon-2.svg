@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102.233" height="104.624" viewBox="0 0 102.233 104.624">
+  <g id="Group_666" data-name="Group 666" transform="translate(0.332 0.25)">
+    <path id="Path_3071" data-name="Path 3071" d="M110.4,9.261,35.7,1a.209.209,0,0,0-.12.06L25.4,92.648a.209.209,0,0,0,.06.12l74.647,8.261a.209.209,0,0,0,.12-.06L110.4,9.381C110.463,9.321,110.4,9.321,110.4,9.261Z" transform="translate(-9.81)" fill="#fff" stroke="#8bc63a" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3072" data-name="Path 3072" d="M75.81,3.8,1.043,11.522c-.06,0-.12.06-.06.12l9.4,91.648c0,.06.06.12.12.06l74.707-7.662c.06,0,.12-.06.06-.12L75.87,3.92C75.87,3.86,75.87,3.8,75.81,3.8Z" transform="translate(0 -1.124)" fill="#fff" stroke="#8bc63a" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3073" data-name="Path 3073" d="M93.186,17.3H18.12a.129.129,0,0,0-.12.12v92.127a.129.129,0,0,0,.12.12H93.246a.129.129,0,0,0,.12-.12V17.42C93.306,17.36,93.246,17.3,93.186,17.3Z" transform="translate(-6.84 -6.543)" fill="#fff" stroke="#8bc63a" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3074" data-name="Path 3074" d="M85.1,58.952A20.952,20.952,0,1,1,64.152,38V58.952Z" transform="translate(-16.955 -14.851)" fill="#fff" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3075" data-name="Path 3075" d="M107.852,52.052A20.975,20.975,0,0,0,86.9,31.1V52.052Z" transform="translate(-34.496 -12.082)" fill="#fff" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3076" data-name="Path 3076" d="M80.7,91.4l9.757,11.374h13.11" transform="translate(-32.007 -36.285)" fill="none" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_3077" data-name="Path 3077" d="M104.4,38.882l7.782-7.782h5.807" transform="translate(-41.52 -12.082)" fill="none" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Line_54" data-name="Line 54" x2="34.6" transform="translate(19.121 75.827)" fill="none" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Line_55" data-name="Line 55" x2="34.6" transform="translate(19.121 85.584)" fill="none" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <line id="Line_56" data-name="Line 56" x2="18.437" transform="translate(19.121 95.342)" fill="none" stroke="#8bc63a" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+  </g>
+</svg>
