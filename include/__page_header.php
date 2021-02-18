@@ -6,11 +6,12 @@
        <nav class="">
             <div class="navbox">
                 <a class="nav_item txt-normal dropdown dropdown-toggle" href="#" id="comp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                企業宗旨
+                關於寶晶
                 </a>
                 <div class="dropdown-menu" aria-labelledby="comp">
-                    <a class="dropdown-item" href="about.php">關於寶晶</a>
-                    <a class="dropdown-item" href="#">發展歷程</a>
+                    <a class="dropdown-item" href="about.php">寶晶能源</a>
+                    <a class="dropdown-item" href="about.php#child">子公司介紹</a>
+                    <a class="dropdown-item" href="about.php#timeline">發展歷程</a>
                     <a class="dropdown-item" href="#">企業社會責任</a>
                     <a class="dropdown-item" href="#">Work with us</a>
                     <a class="dropdown-item" href="#">投資人關係</a>
@@ -37,7 +38,6 @@
                     <a class="dropdown-item" href="#">環境汙染</a>
                     <a class="dropdown-item" href="#">再生能源</a>
                     <a class="dropdown-item" href="#">能源轉換</a>
-                    <a class="dropdown-item" href="#">再生能源</a>
                 </div>
             </div>
             <div class="navbox">

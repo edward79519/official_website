@@ -41,14 +41,13 @@
                 <p class="info small lh_info">
                     結合寶佳機構的土地開發整合經驗，寶晶擁有強大的產業供應鏈與財務和工程控管能力，除本身相關機構之外，更與國際知名的ENcome維運公司技術合作，聘僱當地技術人員進行維運專案，針對克服各地地形難題，寶晶也改良了電廠架構。凝聚各方所長，只為提供更好更穩定的綠色能源，為永續能源開拓更多可能。
                 </p>
-                <a href="#" class="btn" style="min-width:200px; text-align: center;">更多專業優勢</a>
+                <a href="about.php" class="btn" style="min-width:200px; text-align: center;">更多關於寶晶</a>
             </div>
             <div class="pic">
                 <figure style="background-image: url(./img/pic/about.png);"></figure>
             </div>
         </div>
     </section>
-
 
     <section id="adv">
         <div class="inner w1400">
@@ -90,7 +89,7 @@
             </div>
         </div>
     </section>
-
+    <!--
     <section id="project">
         <div class="title">
             <img class="deco-bar" src="img/dec-light.svg" alt="">
@@ -152,69 +151,6 @@
                     </div>
                 </div>
             <?php } ?>
-            </div>
-        </div>
-    </section>
-
-    <!--
-    <section id="news_and_contact">
-        <div class="inner w1800">
-            <section id="news">
-                <h2 class="h2sp txt-main">News</h2>
-                <div class="itembox_outer">
-                    <h4 class="txt-normal">寶晶快訊</h4>
-                    <div class="itembox">
-                    <?php for($i=0; $i<5; $i++){?>
-                        <a href="" class="item">
-                            <small>2019.11.25 | 公司營運</small>
-                            <p class="txt-normal">城市電業屏東林邊大型電站城市電業屏東林邊大型電站-正式運行</p>
-                        </a>
-                    <?php }?>
-                    </div>
-                    <div class="btn_box">
-                        <div class="btn-white-border">更多寶晶快訊</div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact">
-                <h2 class="h2sp txt-main">Contact Us</h2>
-                <div class="itembox_outer">
-                    <h4 class="txt-normal">合作或諮詢請來信或來電洽詢</h4>
-                    <form action="">
-                        <div class="itembox">
-                            <div class="form_item50">
-                                <p>您的單位/大名*</p>
-                                <input type="text" require placeholder="請輸入您的單位與稱呼">
-                            </div>
-                            <div class="form_item50">
-                                <p>聯絡電話*</p>
-                                <input type="text" require placeholder="請輸入您的聯絡電話">
-                            </div>
-                            <div class="form_item100">
-                                <p>電子信箱*</p>
-                                <input type="email" require placeholder="請輸入您的電子信箱">
-                            </div>
-                            <div class="form_item100">
-                                <p>洽詢內容*</p>
-                                <textarea name="" id="" cols="30" rows="10" require placeholder="請輸入您的洽詢內容"></textarea>
-                            </div>
-                        </div>
-                        <div class="btn_box">
-                            <div class="btn">送出信件</div>
-                        </div>
-                    </form>
-                </div>
-            </section>
-        </div>
-    </section>
-
-
-    <section id="local">
-        <div class="info">
-            <img src="img/dec-plant.svg" alt="">
-            <div class="text">
-                <h2>Local development</h2>
-                <h4>在地深耕，活動推廣</h4>
             </div>
         </div>
     </section>
