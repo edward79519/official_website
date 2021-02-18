@@ -81,3 +81,57 @@
         p{ margin-top: 20px; }
     }
 }
+
+#international_banner{
+    width: 100%;
+    position: relative;
+    padding: 5% 0;
+    .banner_pic{
+        width: calc(100% - 70px);
+        padding-bottom: 30%;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .banner_text{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+        h2{
+            position: relative;
+            margin-bottom: 10px;
+        }
+        h2::before{
+            content: '';
+            width: 80px;
+            height: 90px;
+            background-image: url(../img/dec-light.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateX(100%);
+        }
+    }
+}
+
+#international_link{
+    .inner{
+        padding: 50px;
+        margin-top: -200px;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .title{
+        text-align: center;
+        img,h4{ margin-bottom: 10px; }
+        p{ margin-top: 20px; }
+    }
+}

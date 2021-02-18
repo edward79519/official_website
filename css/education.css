@@ -97,4 +97,69 @@
 #domestic_link .title p {
   margin-top: 20px;
 }
+
+#international_banner {
+  width: 100%;
+  position: relative;
+  padding: 5% 0;
+}
+
+#international_banner .banner_pic {
+  width: calc(100% - 70px);
+  padding-bottom: 30%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#international_banner .banner_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#international_banner .banner_text h2 {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#international_banner .banner_text h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+#international_link .inner {
+  padding: 50px;
+  margin-top: -200px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#international_link .title {
+  text-align: center;
+}
+
+#international_link .title img, #international_link .title h4 {
+  margin-bottom: 10px;
+}
+
+#international_link .title p {
+  margin-top: 20px;
+}
 /*# sourceMappingURL=education.css.map */
