@@ -1,0 +1,217 @@
+#banner{
+    width: 100%;
+    position: relative;
+    .banner_pic{
+        width: 100%;
+        padding-bottom: 46%;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .banner_text{
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+        .deco-bar{
+            width: 80px;
+            margin-top: -100%;
+            margin-bottom: 10px;
+        }
+        h3{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+#aboutina{
+
+    .inner{
+        margin-top: 50px;
+        padding: 0 0 50px;
+        position: relative;
+    }
+    .text{
+        width: 600px;
+        padding: 50px;
+        background-color: #fff;
+        opacity: 0.9;
+        position: absolute;
+        display: inline-block;
+        vertical-align: bottom;
+        right: 10%;
+        top: 10%;
+        z-index: 1;
+        .title_bar{
+            width: 100%;
+            img{margin-right: 20px;}
+        }
+        .title{
+            position: relative;
+            display: inline-block;
+            h2{position: relative;}
+            h2::before{
+                content: '';
+                width: 80px;
+                height: 90px;
+                background-image: url(../img/dec-light.svg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                transform: translateX(100%);
+            }
+        }
+        .cnt{
+            padding-top: 10px;
+        }
+    }
+    
+    .pic{
+        width: calc(100% - 30px);
+
+        margin: auto;
+        display: inline-block;
+        vertical-align: bottom;
+        position: relative;
+        // right: 390px;
+        figure{
+            width: 100%;
+            padding-bottom: 70%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px){
+    #aboutina{
+        .inner{
+            padding: 50px 0;
+        }
+        .text{
+            width: 100%;
+            padding: 30px 0;
+            position: relative;
+            top: 0;
+            left: 0 ;
+            .title{
+                padding-right: 80px;
+                &::before{
+                    content: '';
+                    width: 80px;
+                    height: 93px;
+                }
+            }
+        }
+        .pic{
+            width: 100%;
+            min-width: auto;
+        }
+    }
+
+}
+
+#child{
+    margin-top: 40px;
+    text-align: left;
+    .inner{
+        padding: 0 20px 50px 20px;
+        margin-top: 20px;
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+    }
+    .title_bar{
+        margin-bottom: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        img{
+            height: 80px;
+            margin-right: 20px;
+        }
+    }
+    .title{
+        width: auto;
+        position: relative;
+        display: inline-block;
+        padding-right: 130px;
+        h2{position: relative;}
+        h2::before{
+            content: '';
+            width: 80px;
+            height: 90px;
+            background-image: url(../img/dec-light.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translateX(100%);
+        }
+    }
+    .itembox{
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        .item{
+            width: 28%;
+            margin: 20px 10px;
+            .overcome_count{
+                font-size: 70px;
+                opacity: .5;
+                line-height: 1;
+            }
+            .overcome_count,
+            h6{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1023px){
+    #child{
+        .inner{
+            padding: 20px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    #child{
+        .inner{
+            padding: 20px 0;
+        }
+        .itembox{
+            .item{
+                width: 45%;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    #child{
+        .inner{
+            padding: 20px 0;
+        }
+        .itembox{
+            .item{
+                width: 90%;
+                margin: 10px 0;
+            }
+        }
+    }
+}

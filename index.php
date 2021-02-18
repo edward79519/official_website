@@ -156,7 +156,7 @@
         </div>
     </section>
 
-
+    <!--
     <section id="news_and_contact">
         <div class="inner w1800">
             <section id="news">
@@ -218,7 +218,7 @@
             </div>
         </div>
     </section>
-
+    -->
     <?php include __DIR__.'/include/__page_footer.php'; ?>
     <script src="js/main.js"></script>
 </body>

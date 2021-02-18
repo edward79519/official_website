@@ -1,0 +1,44 @@
+#kv {
+  color: white;
+}
+
+#kv .kv_text, #kv .kv_text-m {
+  color: white;
+}
+
+#kv .kv_text h6, #kv .kv_text-m h6 {
+  color: #DDD;
+}
+
+.nav_item {
+  font-size: 14px;
+}
+
+.nav_item a:hover {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+}
+
+.dropdown-menu a {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1023px) {
+  .dropdown-menu {
+    position: static !important;
+    -webkit-transform: none !important;
+            transform: none !important;
+    margin: .2rem;
+    width: 100%;
+  }
+  .dropdown-menu .dropdown-item {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=edit.css.map */

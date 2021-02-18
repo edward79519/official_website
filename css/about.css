@@ -1,0 +1,234 @@
+#banner {
+  width: 100%;
+  position: relative;
+}
+
+#banner .banner_pic {
+  width: 100%;
+  padding-bottom: 46%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#banner .banner_text {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#banner .banner_text .deco-bar {
+  width: 80px;
+  margin-top: -100%;
+  margin-bottom: 10px;
+}
+
+#banner .banner_text h3 {
+  margin-bottom: 10px;
+}
+
+#aboutina .inner {
+  margin-top: 50px;
+  padding: 0 0 50px;
+  position: relative;
+}
+
+#aboutina .text {
+  width: 600px;
+  padding: 50px;
+  background-color: #fff;
+  opacity: 0.9;
+  position: absolute;
+  display: inline-block;
+  vertical-align: bottom;
+  right: 10%;
+  top: 10%;
+  z-index: 1;
+}
+
+#aboutina .text .title_bar {
+  width: 100%;
+}
+
+#aboutina .text .title_bar img {
+  margin-right: 20px;
+}
+
+#aboutina .text .title {
+  position: relative;
+  display: inline-block;
+}
+
+#aboutina .text .title h2 {
+  position: relative;
+}
+
+#aboutina .text .title h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+#aboutina .text .cnt {
+  padding-top: 10px;
+}
+
+#aboutina .pic {
+  width: calc(100% - 30px);
+  margin: auto;
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+}
+
+#aboutina .pic figure {
+  width: 100%;
+  padding-bottom: 70%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1023px) {
+  #aboutina .inner {
+    padding: 50px 0;
+  }
+  #aboutina .text {
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  #aboutina .text .title {
+    padding-right: 80px;
+  }
+  #aboutina .text .title::before {
+    content: '';
+    width: 80px;
+    height: 93px;
+  }
+  #aboutina .pic {
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+#child {
+  margin-top: 40px;
+  text-align: left;
+}
+
+#child .inner {
+  padding: 0 20px 50px 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#child .title_bar {
+  margin-bottom: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#child .title_bar img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+#child .title {
+  width: auto;
+  position: relative;
+  display: inline-block;
+  padding-right: 130px;
+}
+
+#child .title h2 {
+  position: relative;
+}
+
+#child .title h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+#child .itembox {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#child .itembox .item {
+  width: 28%;
+  margin: 20px 10px;
+}
+
+#child .itembox .item .overcome_count {
+  font-size: 70px;
+  opacity: .5;
+  line-height: 1;
+}
+
+#child .itembox .item .overcome_count,
+#child .itembox .item h6 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  #child .inner {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #child .inner {
+    padding: 20px 0;
+  }
+  #child .itembox .item {
+    width: 45%;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #child .inner {
+    padding: 20px 0;
+  }
+  #child .itembox .item {
+    width: 90%;
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=about.css.map */

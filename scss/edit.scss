@@ -1,0 +1,38 @@
+#kv {
+    color: white;
+    .kv_text, .kv_text-m{
+        color: white;
+        h6{
+            color: #DDD;
+        }
+    }
+}
+
+.nav_item{
+    font-size: 14px;
+    
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.dropdown-menu{
+    width: fit-content;
+    text-align: left;
+    a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .dropdown-menu{
+        position: static !important;
+        transform: none !important;
+        margin: .2rem;
+        width: 100%;
+        .dropdown-item{
+            text-align: center;
+        }
+    }
+    
+}

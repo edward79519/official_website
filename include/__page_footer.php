@@ -4,7 +4,7 @@
             <img src="img/logo-footer.svg" alt="">
             <h5 class="txt-white txt-normal">寶晶能源</h5>
             <h5 class="txt-white">Ina Energy Corp</h5>
-            <small class="txt-white">ADD / 台北市內湖區金莊路26號四樓之2</small><br>
+            <small class="txt-white">ADD / 台北市內湖區行善路463號8樓</small><br>
             <small class="txt-white">TEL / 02-27960033 | FAX / 045-228-9153</small>
         </div>
         <div class="bottom">

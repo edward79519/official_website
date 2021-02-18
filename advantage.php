@@ -8,7 +8,6 @@
 <body>
     <?php include __DIR__.'/include/__page_header.php'; ?>
 
-
     <section id="banner">
         <figure class="banner_pic" style="background-image: url(img/Advantage/01-KV.jpg);">
             <div class="banner_text">
@@ -118,5 +117,7 @@
             </div>
         </div>
     </section>
+    <?php include __DIR__.'/include/__page_footer.php'; ?>
+    <script src="js/main.js"></script>
 </body>
 </html>

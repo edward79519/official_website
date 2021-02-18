@@ -1,124 +1,181 @@
 #banner {
   width: 100%;
-  position: relative; }
-  #banner .banner_pic {
-    width: 100%;
-    padding-bottom: 30%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative; }
-  #banner .banner_text {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    text-transform: uppercase; }
-    #banner .banner_text .deco-bar {
-      width: 80px;
-      margin-top: -100%;
-      margin-bottom: 10px; }
-    #banner .banner_text h3 {
-      margin-bottom: 10px; }
+  position: relative;
+}
+
+#banner .banner_pic {
+  width: 100%;
+  padding-bottom: 30%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#banner .banner_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#banner .banner_text .deco-bar {
+  width: 80px;
+  margin-top: -100%;
+  margin-bottom: 10px;
+}
+
+#banner .banner_text h3 {
+  margin-bottom: 10px;
+}
 
 #overcome .inner {
   padding: 5%;
   margin-top: -100px;
   background-color: #fff;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+}
+
 #overcome .title_bar {
-  margin-bottom: 50px; }
-  #overcome .title_bar img {
-    margin-right: 20px; }
+  margin-bottom: 50px;
+}
+
+#overcome .title_bar img {
+  margin-right: 20px;
+}
+
 #overcome .title {
   width: auto;
   position: relative;
   display: inline-block;
-  padding-right: 130px; }
-  #overcome .title h2 {
-    position: relative; }
-  #overcome .title h2::before {
-    content: '';
-    width: 80px;
-    height: 90px;
-    background-image: url(../img/dec-light.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    transform: translateX(100%); }
+  padding-right: 130px;
+}
+
+#overcome .title h2 {
+  position: relative;
+}
+
+#overcome .title h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
 #overcome .itembox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 #overcome .item {
   width: 28%;
-  margin: 20px 0; }
-  #overcome .item .overcome_count {
-    font-size: 70px;
-    opacity: .5;
-    line-height: 1; }
-  #overcome .item .overcome_count,
-  #overcome .item h6 {
-    margin-bottom: 20px; }
+  margin: 20px 0;
+}
+
+#overcome .item .overcome_count {
+  font-size: 70px;
+  opacity: .5;
+  line-height: 1;
+}
+
+#overcome .item .overcome_count,
+#overcome .item h6 {
+  margin-bottom: 20px;
+}
 
 #coop_banner {
   width: 100%;
-  position: relative; }
-  #coop_banner .banner_pic {
-    width: calc(100% - 70px);
-    padding-bottom: 30%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative; }
-  #coop_banner .banner_text {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    text-transform: uppercase; }
-    #coop_banner .banner_text h2 {
-      position: relative;
-      margin-bottom: 10px; }
-    #coop_banner .banner_text h2::before {
-      content: '';
-      width: 80px;
-      height: 90px;
-      background-image: url(../img/dec-light.svg);
-      background-size: 100%;
-      background-repeat: no-repeat;
-      background-position: bottom;
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      transform: translateX(100%); }
+  position: relative;
+}
+
+#coop_banner .banner_pic {
+  width: calc(100% - 70px);
+  padding-bottom: 30%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#coop_banner .banner_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#coop_banner .banner_text h2 {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#coop_banner .banner_text h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
 
 #supply .inner {
   padding: 50px;
   margin-top: -100px;
   background-color: #fff;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+}
+
 #supply .title {
-  text-align: center; }
-  #supply .title img, #supply .title h4 {
-    margin-bottom: 10px; }
-  #supply .title p {
-    margin-top: 20px; }
+  text-align: center;
+}
+
+#supply .title img, #supply .title h4 {
+  margin-bottom: 10px;
+}
+
+#supply .title p {
+  margin-top: 20px;
+}
 
 #chain .left .title_bar {
-  margin-bottom: 40px; }
-  #chain .left .title_bar img {
-    margin-right: 10px;
-    vertical-align: middle; }
+  margin-bottom: 40px;
+}
+
+#chain .left .title_bar img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 #chain .left .title {
   display: inline-block;
-  vertical-align: middle; }
-
+  vertical-align: middle;
+}
 /*# sourceMappingURL=advantage.css.map */
