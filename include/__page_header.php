@@ -10,7 +10,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="comp">
                     <a class="dropdown-item" href="about.php">關於寶晶</a>
-                    <a class="dropdown-item" href="#">里程碑</a>
+                    <a class="dropdown-item" href="#">發展歷程</a>
                     <a class="dropdown-item" href="#">企業社會責任</a>
                     <a class="dropdown-item" href="#">Work with us</a>
                     <a class="dropdown-item" href="#">投資人關係</a>

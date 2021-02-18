@@ -84,9 +84,74 @@
                 </div>
             </div>
         </div>
-        
     </section>
 
+    <section id="timeline">
+        <div class="inner w1200">
+            <div class="text">
+                <div class="title_bar">
+                    <div class="title">
+                        <h2 class="txt-main">發展歷程</h2>
+                    </div>
+                </div>
+                <div class="cnt">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div id="content">
+                                            <ul class="timeline">
+                                                <li class="event" data-date="2020.12">
+                                                    <h3>因人力編制擴展，台北總公司搬遷至今辦公地點：台北市內湖區行善路463號8樓(寶佳潭美大樓)。</h3>
+                                                </li>
+                                                <li class="event" data-date="2020.11">
+                                                    <h3>寶晶能源子公司城市發展電業自建升壓站11月26日併聯啟動，目前是屏東中央光電專區的第一例，此升壓站採用最高規格的「氣體絕緣開關設備 （GIS）」可說是台灣民間業者第一。</h3>
+                                                </li>
+                                                <li class="event" data-date="2020.09">
+                                                    <h3>寶晶能源100%持股子公司「城市發展電業」為支應屏東縣太陽能電廠建置所需資金，委任華南銀行統籌主辦新臺幣35億元聯貸案於9月4日(五)完成簽約。</h3>
+                                                </li>
+                                                <li class="event" data-date="2020.08">
+                                                    <h3>寶晶能源100%持股子公司「寶興能源」 48.8億聯貸案完成簽約，本次聯貸案授信用途主要為建置太陽能電廠暨營運所需資金，參與融資的銀行計有8家，超額認購至1.3倍。</h3>
+                                                </li>
+                                                <li class="event" data-date="2020.03">
+                                                    <h3>股本增資為12.4億元 (國泰證券投資信託股份有限公司 入股)</h3>
+                                                </li>
+                                                <li class="event" data-date="2020.03">
+                                                    <h3>屏東縣林邊鄉99MW太陽能電站第一期動工</h3>
+                                                </li>
+                                                <li class="event" data-date="2019.12">
+                                                    <h3>股本增資為8.795億元 (遠雄人壽 入股)</h3>
+                                                </li>
+                                                <li class="event" data-date="2019.10">
+                                                    <h3>與ENcome正式簽約為合作夥伴。ENcome為歐陸最大維運公司，率先取得歐洲太陽能業者組織推動之太陽能系統維運標章Solar O&M Best Practices Mark。</h3>
+                                                </li>
+                                                <li class="event" data-date="2019.09">
+                                                    <h3>設立屏東辦事處</h3>
+                                                </li>
+                                                <li class="event" data-date="2019.08">
+                                                    <h3>獲選為「屏東縣嚴重地層下陷地區土地活化利用暨太陽光電發電業整體規劃發展計畫」(簡稱中央光電專區) 合格廠商</h3>
+                                                </li>
+                                                <li class="event" data-date="2019.02">
+                                                    <h3>股本增資為4億元</h3>
+                                                </li>
+                                                <li class="event" data-date="2018.07">
+                                                    <h3>總公司設立於台北市內湖區，期初股本為2億元</h3>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pic">
+                <figure style="background-image: url(./img/About/timeline.jpg);"></figure>
+            </div>
+        </div>
+    </section>
 
 
     <?php include __DIR__.'/include/__page_footer.php'; ?>
