@@ -50,12 +50,12 @@
                 <div class="item">
                     <p class="overcome_count txt-main txt-bold">01</p>
                     <h3 class="txt-normal">城市發展電業</h3>
-                    <p class="lh_info">主要開發大型地面型太陽能案廠於屏東縣林邊鄉。中短期規劃為99M，長期規劃至150M。</p>
+                    <p class="lh_info">主要開發大型地面型太陽能案廠於屏東縣林邊鄉。中短期規劃為99M。</p>
                 </div>
                 <div class="item">
                     <p class="overcome_count txt-main txt-bold">02</p>
                     <h3 class="txt-normal">寶興</h3>
-                    <p class="lh_info">主要開發大型地面型太陽能案廠於屏東縣枋寮鄉。中短期規劃為120M，長期規劃至200M至250M。</p>
+                    <p class="lh_info">主要開發大型地面型太陽能案廠於屏東縣枋寮鄉。中短期規劃為120M，長期規劃至200M。</p>
                 </div>
                 <div class="item">
                     <p class="overcome_count txt-main txt-bold">03</p>
