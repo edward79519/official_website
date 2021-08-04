@@ -14,7 +14,7 @@
                     <a class="dropdown-item" href="about.php#timeline">發展歷程</a>
                     <a class="dropdown-item" href="#">企業社會責任</a>
                     <a class="dropdown-item" href="#">Work with us</a>
-                    <a class="dropdown-item" href="#">投資人關係</a>
+                    <a class="dropdown-item" href="about.php#investor">投資人關係</a>
                 </div>
             </div>
             <div class="navbox">

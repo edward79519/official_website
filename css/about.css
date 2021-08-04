@@ -88,7 +88,7 @@
 }
 
 #aboutina .pic {
-  width: calc(100% - 30px);
+  width: 100%;
   margin: auto;
   display: inline-block;
   vertical-align: bottom;
@@ -287,7 +287,7 @@
 }
 
 #timeline .pic {
-  width: calc(100% - 30px);
+  width: 100%;
   margin: auto;
   display: inline-block;
   vertical-align: bottom;
@@ -440,5 +440,53 @@
 #timeline .rtl .timeline .event::after {
   left: 0;
   right: -55.8px;
+}
+
+#investor .inner {
+  margin-bottom: 20vh;
+  padding: 60px 0 50px;
+  position: relative;
+}
+
+#investor .title_bar {
+  margin-bottom: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#investor .title_bar img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+#investor .title {
+  width: auto;
+  position: relative;
+  display: inline-block;
+  padding-right: 130px;
+}
+
+#investor .title h2 {
+  position: relative;
+}
+
+#investor .title h2::before {
+  content: '';
+  width: 80px;
+  height: 90px;
+  background-image: url(../img/dec-light.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+#investor .date {
+  color: #198964;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=about.css.map */

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
     <?php include __DIR__.'/include/__page_meta.php'; ?>
     <?php include __DIR__.'/include/__page_script_head.php'; ?>
     <link rel="stylesheet" href="css/about.css">
+    
 </head>
 
 <body>
@@ -153,6 +155,26 @@
         </div>
     </section>
 
+    <section id="investor">
+        <div class="inner w1200">
+            <div class="title_bar">
+                <div class="title">
+                    <h2 class="txt-main">投資人關係</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <span class="date">2021/08/04</span><a target="_blank" href="statics/附件四-寶晶能源股份有限公司 董(監)事候選人名單.pdf">公告本次股東會日期(110.08.18)辦理董監改選之董監事候選人名單</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <?php include __DIR__.'/include/__page_footer.php'; ?>
     <script src="js/main.js"></script>
